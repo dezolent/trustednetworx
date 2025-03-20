@@ -42,6 +42,13 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+            <h2 className="text-3xl font-extrabold text-gray-900 text-center">Get In Touch</h2>
+            <div
+                className="pipedriveWebForms"
+                data-pd-webforms="https://webforms.pipedrive.com/f/72oA5v3gMTRFXMHL96MVC38B88qfVCNnRO3FQKPV1qwjveXmYnVmUbiytp6Q5q7cz1"
+            />
+          </div>
           <div>
             <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Get In Touch</h2>
             <div className="space-y-6">
@@ -63,12 +70,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div>
-            <div 
-              className="pipedriveWebForms" 
-              data-pd-webforms="https://webforms.pipedrive.com/f/72oA5v3gMTRFXMHL96MVC38B88qfVCNnRO3FQKPV1qwjveXmYnVmUbiytp6Q5q7cz1"
-            />
-          </div>
+
         </div>
       </div>
     </div>

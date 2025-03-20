@@ -67,7 +67,7 @@ const About = () => {
 
         {/* Stats Section */}
         <div className="mt-16">
-          <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3">
+          <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3 text-center">
             <div className="bg-white overflow-hidden">
               <dt className="text-5xl font-extrabold text-blue-600">15+</dt>
               <dd className="mt-2 text-lg font-medium text-gray-500">Years of Experience</dd>
