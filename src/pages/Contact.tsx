@@ -50,7 +50,7 @@ const Contact = () => {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Get In Touch</h2>
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
             <div className="space-y-6">
               <div className="flex items-center text-gray-700">
                 <Mail className="h-6 w-6 text-blue-600 mr-3" />
