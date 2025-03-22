@@ -191,12 +191,12 @@ const Home = () => {
 
           <div className="w-full">
             <img 
-              src="/Partners-Banner-Desktop.png"
+              src="/partners/Partners-Banner-Desktop.png"
               alt="Our Trusted Partners"
               className="w-full hidden md:block"
             />
             <img 
-              src="/Partners-Banner-Mobile.png"
+              src="/partners/Partners-Banner-Mobile.png"
               alt="Our Trusted Partners"
               className="w-full md:hidden"
             />
