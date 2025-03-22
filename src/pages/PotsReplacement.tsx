@@ -5,7 +5,7 @@ import {
   PhoneCall, Printer, Router, ShoppingCart,
   PhoneForwarded, Building, DoorClosed, Wifi,
   Gauge, Terminal, Banknote, Activity,
-  Server, Radio
+  Server, Radio, Globe, Cpu, Network
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -134,8 +134,38 @@ const PotsReplacement = () => {
           </div>
         </div>
 
+        {/* Mission Section */}
+        <div className="mt-16">
+          <div className="text-center">
+            <h2 className="text-3xl font-extrabold text-gray-900">PTSN Sunset & The Market</h2>
+            <p className="mt-4 max-w-3xl mx-auto text-lg text-gray-500">
+              POTS technology remains the backbone of infrastructure, seamlessly integrating into every aspect of modern life. These landlines connect essential devices such as electrical transformer stations, security alarm panels, commercial HVAC systems, POS terminals, ATMs, traffic control systems, and elevator emergency phones.
+
+
+            </p>
+          </div>
+        </div>
+
+        {/* Stats Section */}
+        <div className="py-16">
+          <dl className="grid grid-cols-1 gap-8 sm:grid-cols-3 text-center">
+            <div className="bg-white overflow-hidden">
+              <dt className="text-5xl font-extrabold text-blue-600">900M+</dt>
+              <dd className="mt-2 text-lg font-medium text-gray-500">Legacy Landlines Globally</dd>
+            </div>
+            <div className="bg-white overflow-hidden">
+              <dt className="text-5xl font-extrabold text-blue-600">30M+</dt>
+              <dd className="mt-2 text-lg font-medium text-gray-500">POTS Lines in the US</dd>
+            </div>
+            <div className="bg-white overflow-hidden">
+              <dt className="text-5xl font-extrabold text-blue-600">31.4%</dt>
+              <dd className="mt-2 text-lg font-medium text-gray-500">Increase in POTS Costs Over The Past 5 Years</dd>
+            </div>
+          </dl>
+        </div>
+
         {/* Use Cases Section with Wave Background */}
-        <div className="mt-16 py-12">
+        <div className="py-16">
           <div className="relative w-full bg-blue-50">
             {/* Top Wave */}
             <div className="absolute top-0 left-0 right-0 h-16 overflow-hidden -translate-y-full">
@@ -169,33 +199,38 @@ const PotsReplacement = () => {
 
         {/* Features Section */}
         <div className="mt-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Compatible Systems & Use Cases</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <h3 className="text-2xl font-bold text-gray-900 mb-8">Compatible Systems & Industries</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">Security Systems</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Retail</h4>
               <ul className="text-gray-600 space-y-2">
+                <li>• Point of sale systems</li>
+                <li>• Security alarms</li>
                 <li>• Fire alarm panels</li>
-                <li>• Burglar alarms</li>
-                <li>• Emergency phones</li>
-                <li>• Building access control</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">Business Equipment</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Healthcare</h4>
               <ul className="text-gray-600 space-y-2">
                 <li>• Fax machines</li>
-                <li>• Point of sale systems</li>
-                <li>• Credit card readers</li>
-                <li>• ATM machines</li>
+                <li>• Emergency phones</li>
+                <li>• Paging systems</li>
               </ul>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
-              <h4 className="text-xl font-semibold text-gray-900 mb-3">Building Systems</h4>
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Education</h4>
               <ul className="text-gray-600 space-y-2">
                 <li>• Elevator phones</li>
+                <li>• Campus security systems</li>
+                <li>• Safety Phones</li>
+              </ul>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+              <h4 className="text-xl font-semibold text-gray-900 mb-3">Manufacturing</h4>
+              <ul className="text-gray-600 space-y-2">
+                <li>• Fire alarm panels</li>
+                <li>• Meter reading</li>
                 <li>• Gate entry systems</li>
-                <li>• Building automation</li>
-                <li>• Environmental monitoring</li>
               </ul>
             </div>
           </div>
@@ -204,7 +239,7 @@ const PotsReplacement = () => {
         {/* CTA Section */}
         <div className="mt-16 bg-blue-50 rounded-xl p-8">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to Modernize Your Phone Lines?</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">Don't Let Outdated POTS Lines Slow Down Your Business</h3>
             <p className="text-lg text-gray-600 mb-8">
               Contact us today to learn how we can help you transition from legacy POTS lines to modern alternatives while maintaining compatibility with your existing systems.
             </p>
