@@ -99,7 +99,7 @@ const PotsReplacement = () => {
               </div>
               <div className="flex justify-center">
                 <img 
-                  src="/POTS-IN-A-BOX-Diagram.png" 
+                  src="/DataRemote-90X1-All-In-One-POTS-Replacement.png" 
                   alt="POTS IN A BOX Solution Diagram"
                   className="max-w-full h-auto rounded-lg shadow-lg"
                 />
