@@ -147,7 +147,7 @@ const Home = () => {
       {/* Why Choose Us Section */}
       <div className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center mb-12">
+          <div className="text-center mb-12">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Why Choose Us?
             </h2>
@@ -200,7 +200,7 @@ const Home = () => {
       {/* Our Trusted Partners Section */}
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="lg:text-center mb-12">
+          <div className="text-center mb-12">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
               Our Trusted Partners
             </h2>
