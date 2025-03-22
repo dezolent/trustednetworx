@@ -11,7 +11,7 @@ const PotsReplacement = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/POTS-Line-Replacement-Banner.jpg)',
+            backgroundImage: 'url(/TrustedNetworx-Hero-Image.jpg)',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
@@ -38,7 +38,7 @@ const PotsReplacement = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900">Modernize Your Communications Infrastructure</h2>
+            <h2 className="text-3xl font-extrabold text-gray-900">Cutting the Landline</h2>
             <p className="mt-4 text-lg text-gray-500">
               As traditional Plain Old Telephone Service (POTS) lines become obsolete and carriers phase out support, businesses need reliable alternatives that offer improved functionality and cost savings.
             </p>
@@ -74,6 +74,37 @@ const PotsReplacement = () => {
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+
+        {/* All-In-One Solution Section */}
+        <div className="mt-16 bg-gray-50 rounded-xl p-8">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
+              An All-In-One POTS Replacement Solution
+            </h2>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="prose prose-lg">
+                <p className="text-gray-600">
+                  <a 
+                    href="https://dataremote.com/pots-line-replacement/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 font-semibold"
+                  >
+                    POTS IN A BOX®
+                  </a>{' '}
+                  is a cutting-edge POTS line replacement solution that enables seamless migration of legacy PSTN-based analog systems to modern IP and cellular data networks, supporting voice, fax, alarm signals, and emergency communications. Featuring cost-effective, plug-and-play cellular routers, it delivers versatile business continuity and reliable telecommunications for today's evolving industry.
+                </p>
+              </div>
+              <div className="flex justify-center">
+                <img 
+                  src="/POTS-IN-A-BOX-Diagram.png" 
+                  alt="POTS IN A BOX Solution Diagram"
+                  className="max-w-full h-auto rounded-lg shadow-lg"
+                />
+              </div>
+            </div>
           </div>
         </div>
 
