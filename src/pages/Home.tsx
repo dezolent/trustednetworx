@@ -191,12 +191,12 @@ const Home = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/AT%26T_logo_2016.svg" alt="AT&T" className="h-12 w-auto mx-auto" />
-            <img src="/partners/mettel-logo.png" alt="MetTel" className="h-12 w-auto mx-auto" />
+            <img src="/mettel-logo.png" alt="MetTel" className="h-12 w-auto mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Verizon_2024.svg" alt="Verizon" className="h-12 w-auto mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/T-Mobile_2020.svg" alt="T-Mobile" className="h-12 w-auto mx-auto" />
-            <img src="/partners/velocity-logo.png" alt="Velocity" className="h-12 w-auto mx-auto" />
-            <img src="/partners/dataremote-logo.png" alt="DataRemote" className="h-12 w-auto mx-auto" />
-            <img src="/partners/mix-networks-logo.png" alt="Mix Networks" className="h-12 w-auto mx-auto" />
+            <img src="/velocity-logo.png" alt="Velocity" className="h-12 w-auto mx-auto" />
+            <img src="/dataremote-logo.png" alt="DataRemote" className="h-12 w-auto mx-auto" />
+            <img src="/mix-networks-logo.png" alt="Mix Networks" className="h-12 w-auto mx-auto" />
           </div>
         </div>
       </div>
