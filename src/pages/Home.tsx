@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Truck, Wifi, PhoneCall, Smartphone, Mic, ArrowRight } from 'lucide-react';
+import { Phone, Truck, Wifi, PhoneCall, Smartphone, Mic, ArrowRight, Award, Users, Zap, Shield } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -31,12 +31,12 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Solutions Section */}
+      {/* Services Section */}
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Our Services
+              Our Solutions
             </h2>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
               Comprehensive telecommunications solutions for your business needs
@@ -191,12 +191,12 @@ const Home = () => {
 
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/AT%26T_logo_2016.svg" alt="AT&T" className="h-12 w-auto mx-auto" />
-            <img src="/mettel-logo.png" alt="MetTel" className="h-12 w-auto mx-auto" />
+            <img src="/partners/mettel-logo.png" alt="MetTel" className="h-12 w-auto mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Verizon_2024.svg" alt="Verizon" className="h-12 w-auto mx-auto" />
             <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/T-Mobile_2020.svg" alt="T-Mobile" className="h-12 w-auto mx-auto" />
-            <img src="/velocity-logo.png" alt="Velocity" className="h-12 w-auto mx-auto" />
-            <img src="/dataremote-logo.png" alt="DataRemote" className="h-12 w-auto mx-auto" />
-            <img src="/mix-networks-logo.png" alt="Mix Networks" className="h-12 w-auto mx-auto" />
+            <img src="/partners/velocity-logo.png" alt="Velocity" className="h-12 w-auto mx-auto" />
+            <img src="/partners/dataremote-logo.png" alt="DataRemote" className="h-12 w-auto mx-auto" />
+            <img src="/partners/mix-networks-logo.png" alt="Mix Networks" className="h-12 w-auto mx-auto" />
           </div>
         </div>
       </div>
@@ -210,10 +210,7 @@ const Home = () => {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <Link
-                  to="/contact"
-                  className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50"
-              >
+              <Link to="/contact" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50">
                 Contact Us
               </Link>
             </div>
