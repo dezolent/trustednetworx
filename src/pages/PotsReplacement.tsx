@@ -79,7 +79,7 @@ const PotsReplacement = () => {
 
         {/* All-In-One Solution Section */}
         <div className="mt-16 bg-gray-50 rounded-xl p-8">
-          <div className="max-w-4xl mx-auto">
+          <div className="mx-auto">
             <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
               An All-In-One POTS Replacement Solution
             </h2>
