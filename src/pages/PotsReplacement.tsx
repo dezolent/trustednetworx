@@ -6,15 +6,31 @@ const PotsReplacement = () => {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <div className="relative bg-blue-600 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
-              POTS Replacement Solutions
-            </h1>
-            <p className="mt-3 max-w-md mx-auto text-base text-blue-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Modern alternatives to traditional phone lines for your business
-            </p>
+      <div className="relative min-h-[400px] flex items-center">
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 z-0"
+          style={{
+            backgroundImage: 'url(/POTS-Line-Replacement-Banner.jpg)',
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat'
+          }}
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 to-blue-600/90" />
+        </div>
+
+        <div className="relative z-10 w-full">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+                POTS Replacement Solutions
+              </h1>
+              <p className="mt-3 max-w-md mx-auto text-base text-blue-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                Modern alternatives to traditional phone lines for your business
+              </p>
+            </div>
           </div>
         </div>
       </div>
