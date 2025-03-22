@@ -32,7 +32,7 @@ const Home = () => {
                   <span className="block">Modern Solutions for</span>
                   <span className="block text-blue-200">Modern Business</span>
                 </h1>
-                <h2 className="mt-3 text-base text-blue-200 sm:text-lg md:text-xl max-w-xl">
+                <h2 className="mt-3 text-base text-white sm:text-lg md:text-xl max-w-xl">
                   TrustedNetworx delivers cutting-edge telecommunications solutions to help your business stay connected and competitive.
                 </h2>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
