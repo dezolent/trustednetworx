@@ -11,7 +11,7 @@ const PotsReplacement = () => {
         <div 
           className="absolute inset-0 z-0"
           style={{
-            backgroundImage: 'url(/TrustedNetworx-Hero-Image.jpg)',
+            backgroundImage: 'url(/POTS-Line-Replacement-Banner.jpg)',
             backgroundPosition: 'center',
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
