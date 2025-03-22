@@ -56,6 +56,14 @@ const PotsReplacement = () => {
               <p className="mt-3 max-w-md mx-auto text-base text-blue-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                 Modern alternatives to traditional phone lines for your business
               </p>
+              <div className="mt-8">
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10"
+                >
+                  Get A Quote
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -73,10 +81,7 @@ const PotsReplacement = () => {
             </p>
           </div>
           <div className="bg-blue-50 p-8 rounded-lg">
-            <div className="text-blue-600 mb-6">
-              <Phone size={48} />
-            </div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Benefits</h3>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">Key Benefits</h3>
             <ul className="space-y-4 text-gray-600">
               <li className="flex items-start">
                 <DollarSign className="flex-shrink-0 h-6 w-6 text-blue-600 mr-2" />
@@ -199,7 +204,7 @@ const PotsReplacement = () => {
 
         {/* Features Section */}
         <div className="mt-16">
-          <h3 className="text-2xl font-bold text-gray-900 mb-8">Compatible Systems & Industries</h3>
+          <h3 className="text-2xl font-bold text-gray-900 mb-8 sm:text-center">Compatible Systems & Industries</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
               <h4 className="text-xl font-semibold text-gray-900 mb-3">Retail</h4>
