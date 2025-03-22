@@ -1,8 +1,34 @@
 import React from 'react';
-import { Phone, Shield, Zap, DollarSign } from 'lucide-react';
+import { 
+  Phone, Shield, Zap, DollarSign, 
+  Bell, Flame, UserCheck, Building2, 
+  PhoneCall, Printer, Router, ShoppingCart,
+  PhoneForwarded, Building, DoorClosed, Wifi,
+  Gauge, Terminal, Banknote, Activity,
+  Server, Radio
+} from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const PotsReplacement = () => {
+  const usesCases = [
+    { icon: Printer, name: 'FAX' },
+    { icon: Gauge, name: 'Meter Reading' },
+    { icon: Bell, name: 'Burglar & Fire Alarm' },
+    { icon: ShoppingCart, name: 'Point of Sale Terminals' },
+    { icon: PhoneForwarded, name: 'Ring-Down (Audiodial)' },
+    { icon: Terminal, name: 'Vending Machines' },
+    { icon: Building2, name: 'Elevator, Paging, Taxi' },
+    { icon: Banknote, name: 'ATM Machines' },
+    { icon: Building, name: 'Apartment Call Box' },
+    { icon: Activity, name: 'Telemetry' },
+    { icon: DoorClosed, name: 'Gate Access' },
+    { icon: Server, name: 'SMB Router/Gateway' },
+    { icon: Router, name: 'Analog M2M' },
+    { icon: Radio, name: '4G/5G Internet Access' },
+    { icon: Terminal, name: 'Legacy Modem Support' },
+    { icon: Wifi, name: 'Wireless Wi-Fi Access' }
+  ];
+
   return (
     <div className="bg-white">
       {/* Hero Section */}
@@ -104,6 +130,39 @@ const PotsReplacement = () => {
                   className="max-w-full h-auto rounded-lg"
                 />
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Use Cases Section with Wave Background */}
+        <div className="mt-16 py-12">
+          <div className="relative w-full bg-blue-50">
+            {/* Top Wave */}
+            <div className="absolute top-0 left-0 right-0 h-16 overflow-hidden -translate-y-full">
+              <svg className="absolute bottom-0 w-full h-16" preserveAspectRatio="none" viewBox="0 0 1440 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 54L1440 54L1440 0C1440 0 1320 36 1200 36C1080 36 960 0 840 0C720 0 600 36 480 36C360 36 240 0 120 0C60 0 0 18 0 18L0 54Z" fill="#EBF5FF"/>
+              </svg>
+            </div>
+
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+              <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">
+                Supporting All Your POTS Replacement Needs
+              </h2>
+              <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
+                {usesCases.map((useCase, index) => (
+                  <div key={index} className="flex flex-col items-center text-center">
+                    <useCase.icon className="w-8 h-8 text-blue-600 mb-3" />
+                    <p className="text-sm font-medium text-gray-900">{useCase.name}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Bottom Wave */}
+            <div className="absolute bottom-0 left-0 right-0 h-16 overflow-hidden translate-y-full">
+              <svg className="absolute top-0 w-full h-16" preserveAspectRatio="none" viewBox="0 0 1440 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0L1440 0L1440 54C1440 54 1320 18 1200 18C1080 18 960 54 840 54C720 54 600 18 480 18C360 18 240 54 120 54C60 54 0 36 0 36L0 0Z" fill="#EBF5FF"/>
+              </svg>
             </div>
           </div>
         </div>
