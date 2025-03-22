@@ -189,56 +189,17 @@ const Home = () => {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/3/31/AT%26T_logo_2016.svg" 
-                alt="AT&T" 
-                className="h-8 w-auto object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="/partners/mettel-logo.png" 
-                alt="MetTel" 
-                className="h-6 w-auto object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/8/83/Verizon_2024.svg" 
-                alt="Verizon" 
-                className="h-8 w-auto object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="https://upload.wikimedia.org/wikipedia/commons/c/cb/T-Mobile_2020.svg" 
-                alt="T-Mobile" 
-                className="h-8 w-auto object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="/partners/velocity-logo.png" 
-                alt="Velocity" 
-                className="h-10 w-auto object-contain mt-2"
-              />
-            </div>
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="/partners/dataremote-logo.png" 
-                alt="DataRemote" 
-                className="h-5 w-auto object-contain"
-              />
-            </div>
-            <div className="flex items-center justify-center h-16">
-              <img 
-                src="/partners/mix-networks-logo.png" 
-                alt="Mix Networks" 
-                className="h-8 w-auto object-contain"
-              />
-            </div>
+          <div className="w-full">
+            <img 
+              src="/Partners-Banner-Desktop.png"
+              alt="Our Trusted Partners"
+              className="w-full hidden md:block"
+            />
+            <img 
+              src="/Partners-Banner-Mobile.png"
+              alt="Our Trusted Partners"
+              className="w-full md:hidden"
+            />
           </div>
         </div>
       </div>
