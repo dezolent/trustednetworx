@@ -31,7 +31,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Services Section */}
+      {/* Solutions Section */}
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
@@ -123,6 +123,80 @@ const Home = () => {
                 </div>
               </Link>
             </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Why Choose Us Section */}
+      <div className="py-12 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-center mb-12">
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              Why Choose Us?
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="text-blue-600 mb-4">
+                <Award size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Expertise</h3>
+              <p className="text-gray-600">
+                With decades of experience in telecom and enterprise solutions, we understand the unique challenges businesses face in connectivity and infrastructure modernization.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="text-blue-600 mb-4">
+                <Users size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Strategic Partnerships</h3>
+              <p className="text-gray-600">
+                We have successfully led high-profile projects with global telecom providers, government agencies, and Fortune 500 companies.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="text-blue-600 mb-4">
+                <Zap size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Innovative Solutions</h3>
+              <p className="text-gray-600">
+                From cellular data technology to cloud-based communication systems, we offer future-proof solutions tailored to your needs.
+              </p>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-sm">
+              <div className="text-blue-600 mb-4">
+                <Shield size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Reliable & Scalable</h3>
+              <p className="text-gray-600">
+                Our solutions are designed for long-term success, helping businesses reduce costs, improve efficiency, and enhance communication capabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Trusted Partners Section */}
+      <div className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="lg:text-center mb-12">
+            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              Our Trusted Partners
+            </h2>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-8 items-center">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/AT%26T_logo_2016.svg" alt="AT&T" className="h-12 w-auto mx-auto" />
+            <img src="/partners/mettel-logo.png" alt="MetTel" className="h-12 w-auto mx-auto" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Verizon_2024.svg" alt="Verizon" className="h-12 w-auto mx-auto" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/T-Mobile_2020.svg" alt="T-Mobile" className="h-12 w-auto mx-auto" />
+            <img src="/partners/velocity-logo.png" alt="Velocity" className="h-12 w-auto mx-auto" />
+            <img src="/partners/dataremote-logo.png" alt="DataRemote" className="h-12 w-auto mx-auto" />
+            <img src="/partners/mix-networks-logo.png" alt="Mix Networks" className="h-12 w-auto mx-auto" />
           </div>
         </div>
       </div>
