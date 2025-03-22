@@ -45,79 +45,79 @@ const Home = () => {
 
           <div className="mt-10">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-              <Link to="/pots-replacement" className="group">
-                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 mb-4">
-                    <Phone size={32} />
+              <Link to="/pots-replacement" className="group h-full">
+                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow text-center h-full flex flex-col">
+                  <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-purple-100 mb-4">
+                    <Phone className="h-8 w-8 text-purple-600" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900">POTS Replacement</h3>
-                  <p className="mt-2 text-gray-500">Modern alternatives to traditional phone lines</p>
-                  <div className="mt-4 flex items-center text-blue-600">
+                  <p className="mt-2 text-gray-500 flex-grow">Modern alternatives to traditional phone lines</p>
+                  <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </Link>
 
-              <Link to="/fleet-management" className="group">
-                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 mb-4">
-                    <Truck size={32} />
+              <Link to="/fleet-management" className="group h-full">
+                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow text-center h-full flex flex-col">
+                  <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-green-100 mb-4">
+                    <Truck className="h-8 w-8 text-green-600" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900">Fleet Management</h3>
-                  <p className="mt-2 text-gray-500">Efficient fleet tracking and management solutions</p>
-                  <div className="mt-4 flex items-center text-blue-600">
+                  <p className="mt-2 text-gray-500 flex-grow">Efficient fleet tracking and management solutions</p>
+                  <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </Link>
 
-              <Link to="/internet-connectivity" className="group">
-                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 mb-4">
-                    <Wifi size={32} />
+              <Link to="/internet-connectivity" className="group h-full">
+                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow text-center h-full flex flex-col">
+                  <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-yellow-100 mb-4">
+                    <Wifi className="h-8 w-8 text-yellow-600" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900">Internet Connectivity</h3>
-                  <p className="mt-2 text-gray-500">High-speed internet solutions for business</p>
-                  <div className="mt-4 flex items-center text-blue-600">
+                  <p className="mt-2 text-gray-500 flex-grow">High-speed internet solutions for business</p>
+                  <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </Link>
 
-              <Link to="/ip-pbx" className="group">
-                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 mb-4">
-                    <PhoneCall size={32} />
+              <Link to="/ip-pbx" className="group h-full">
+                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow text-center h-full flex flex-col">
+                  <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-pink-100 mb-4">
+                    <PhoneCall className="h-8 w-8 text-pink-600" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900">IP PBX</h3>
-                  <p className="mt-2 text-gray-500">Advanced business phone systems</p>
-                  <div className="mt-4 flex items-center text-blue-600">
+                  <p className="mt-2 text-gray-500 flex-grow">Advanced business phone systems</p>
+                  <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </Link>
 
-              <Link to="/mobility-solutions" className="group">
-                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 mb-4">
-                    <Smartphone size={32} />
+              <Link to="/mobility-solutions" className="group h-full">
+                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow text-center h-full flex flex-col">
+                  <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-blue-100 mb-4">
+                    <Smartphone className="h-8 w-8 text-blue-600" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900">Mobility Solutions</h3>
-                  <p className="mt-2 text-gray-500">Enterprise mobility management and solutions</p>
-                  <div className="mt-4 flex items-center text-blue-600">
+                  <p className="mt-2 text-gray-500 flex-grow">Enterprise mobility management and solutions</p>
+                  <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
               </Link>
 
-              <Link to="/voice-solutions" className="group">
-                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow">
-                  <div className="text-blue-600 mb-4">
-                    <Mic size={32} />
+              <Link to="/voice-solutions" className="group h-full">
+                <div className="relative rounded-lg border border-gray-200 bg-white p-6 shadow-sm hover:shadow-lg transition-shadow text-center h-full flex flex-col">
+                  <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-indigo-100 mb-4">
+                    <Mic className="h-8 w-8 text-indigo-600" />
                   </div>
                   <h3 className="text-lg font-medium text-gray-900">Voice Solutions</h3>
-                  <p className="mt-2 text-gray-500">Advanced voice communication systems</p>
-                  <div className="mt-4 flex items-center text-blue-600">
+                  <p className="mt-2 text-gray-500 flex-grow">Advanced voice communication systems</p>
+                  <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
                 </div>
@@ -191,12 +191,12 @@ const Home = () => {
 
           <div className="w-full">
             <img 
-              src="/partners/Partners-Banner-Desktop.png"
+              src="/Partners-Banner-Desktop.png"
               alt="Our Trusted Partners"
               className="w-full hidden md:block"
             />
             <img 
-              src="/partners/Partners-Banner-Mobile.png"
+              src="/Partners-Banner-Mobile.png"
               alt="Our Trusted Partners"
               className="w-full md:hidden"
             />
