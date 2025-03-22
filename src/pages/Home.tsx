@@ -18,7 +18,7 @@ const Home = () => {
           }}
         >
           {/* Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/95 to-blue-600/90" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black-900/95 to-black-600/50" />
         </div>
 
         <div className="relative z-10 w-full">
