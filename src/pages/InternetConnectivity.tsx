@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wifi, Zap, Lock, Clock, Globe, Shield, Server, Gauge } from 'lucide-react';
+import { Wifi, Zap, Lock, Clock, Globe, Shield, Server, Gauge, DollarSign, Router, Signal, Network, Headphones } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const InternetConnectivity = () => {
@@ -13,7 +13,7 @@ const InternetConnectivity = () => {
               Business Internet Solutions
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-blue-200 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              High-speed, reliable connectivity solutions for modern businesses
+              Ensure your business remains agile, efficient, and securely connected with our comprehensive Internet Connectivity solutions
             </p>
           </div>
         </div>
@@ -32,34 +32,34 @@ const InternetConnectivity = () => {
             
             <div className="mt-8 space-y-6">
               <div className="flex items-start">
+                <Wifi className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
+                <div className="ml-4">
+                  <h3 className="text-lg font-medium text-gray-900">Reliability</h3>
+                  <p className="mt-2 text-gray-500">Experience high-quality, uninterrupted connectivity backed by our robust infrastructure and support.​</p>
+                </div>
+              </div>
+
+              <div className="flex items-start">
                 <Gauge className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div className="ml-4">
-                  <h3 className="text-lg font-medium text-gray-900">Guaranteed Bandwidth</h3>
-                  <p className="mt-2 text-gray-500">Dedicated bandwidth with speeds up to 100 Gbps and guaranteed throughput</p>
+                  <h3 className="text-lg font-medium text-gray-900">Scalability</h3>
+                  <p className="mt-2 text-gray-500">Easily adjust services to align with your business growth and evolving needs.​</p>
                 </div>
               </div>
 
               <div className="flex items-start">
                 <Shield className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div className="ml-4">
-                  <h3 className="text-lg font-medium text-gray-900">Enhanced Security</h3>
-                  <p className="mt-2 text-gray-500">Built-in DDoS protection and advanced security features to protect your network</p>
+                  <h3 className="text-lg font-medium text-gray-900">Security</h3>
+                  <p className="mt-2 text-gray-500">Protect your data and communications with our advanced security measures and monitoring.</p>
                 </div>
               </div>
 
               <div className="flex items-start">
-                <Clock className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
+                <DollarSign className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
                 <div className="ml-4">
-                  <h3 className="text-lg font-medium text-gray-900">24/7 Support</h3>
-                  <p className="mt-2 text-gray-500">Round-the-clock monitoring and technical support with rapid response times</p>
-                </div>
-              </div>
-
-              <div className="flex items-start">
-                <Globe className="h-6 w-6 text-blue-600 flex-shrink-0 mt-1" />
-                <div className="ml-4">
-                  <h3 className="text-lg font-medium text-gray-900">Global Coverage</h3>
-                  <p className="mt-2 text-gray-500">Extensive network coverage with points of presence worldwide</p>
+                  <h3 className="text-lg font-medium text-gray-900">Cost Efficiency</h3>
+                  <p className="mt-2 text-gray-500">Optimize your IT investments with solutions designed to provide maximum value and performance.​</p>
                 </div>
               </div>
             </div>
@@ -70,41 +70,59 @@ const InternetConnectivity = () => {
             
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
               <div className="flex items-center mb-4">
-                <Wifi className="h-6 w-6 text-blue-600 mr-3" />
-                <h4 className="text-xl font-semibold text-gray-900">Dedicated Internet Access</h4>
+                <Router className="h-6 w-6 text-blue-600 mr-3" />
+                <h4 className="text-xl font-semibold text-gray-900">Managed SD-WAN Services</h4>
               </div>
               <ul className="text-gray-600 space-y-2">
-                <li>• Symmetrical speeds up to 100 Gbps</li>
-                <li>• 99.999% availability SLA</li>
-                <li>• Built-in DDoS protection</li>
-                <li>• BGP routing options</li>
+                <li>Our award-winning SD-WAN combines MPLS, broadband internet circuits, and 4G-LTE to deliver a resilient and high-performance network. This intelligent network dynamically manages resources, offering improved performance, reliability, and security.</li>
               </ul>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
               <div className="flex items-center mb-4">
-                <Server className="h-6 w-6 text-blue-600 mr-3" />
-                <h4 className="text-xl font-semibold text-gray-900">SD-WAN Solutions</h4>
+                <Globe className="h-6 w-6 text-blue-600 mr-3" />
+                <h4 className="text-xl font-semibold text-gray-900">Satellite Broadband</h4>
               </div>
               <ul className="text-gray-600 space-y-2">
-                <li>• Intelligent traffic routing</li>
-                <li>• Application-aware networking</li>
-                <li>• Multi-link load balancing</li>
-                <li>• Zero-touch provisioning</li>
+                <li>As an authorized reseller of Starlink services and equipment, we provide high-speed, low-latency broadband internet access, even in remote locations. This ensures your business remains connected, regardless of geography.</li>
               </ul>
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
               <div className="flex items-center mb-4">
-                <Zap className="h-6 w-6 text-blue-600 mr-3" />
-                <h4 className="text-xl font-semibold text-gray-900">Broadband Services</h4>
+                <Signal className="h-6 w-6 text-blue-600 mr-3" />
+                <h4 className="text-xl font-semibold text-gray-900">IoT Single SIM</h4>
               </div>
               <ul className="text-gray-600 space-y-2">
-                <li>• High-speed cable and fiber options</li>
-                <li>• Business-class SLAs</li>
-                <li>• Static IP addresses</li>
-                <li>• Optional backup solutions</li>
+                <li>Our IoT Single SIM card ensures your devices maintain connectivity at all times by intelligently roaming to find the strongest mobile signal, regardless of carrier. This global solution enhances security, reduces costs, and provides real-time data for effective device management.</li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Why Choose Us Section */}
+        <div className="text-center mt-16">
+          <h2 className="text-3xl font-extrabold text-gray-900">
+            Why Choose TrustedNetworx Solutions
+          </h2>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-blue-600 mb-4 flex items-center justify-center">
+                <Network size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Customized IT Solutions</h3>
+              <p className="text-gray-600">
+                Our team expertly monitors and maintains your IT infrastructure, allowing you to focus on your core business operations without interruption. We provide fully managed fiber, broadband, and wireless 4G/LTE solutions, ensuring your networks are secure, efficient, and up-to-date.
+              </p>
+            </div>
+            <div className="bg-white p-6 rounded-lg shadow-lg border border-gray-200">
+              <div className="text-blue-600 mb-4 flex items-center justify-center">
+                <Headphones size={32} />
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-3">Comprehensive Support</h3>
+              <p className="text-gray-600">
+                As a client, you'll have direct access to dedicated account managers, project managers, engineers, service technicians, and a customer care team to assist with all aspects of your networking needs.
+              </p>
             </div>
           </div>
         </div>
