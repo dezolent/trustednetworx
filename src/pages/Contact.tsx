@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, Phone } from 'lucide-react';
 
 const Contact = () => {
   useEffect(() => {
@@ -52,6 +52,10 @@ const Contact = () => {
           <div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">Contact Information</h3>
             <div className="space-y-6">
+              <div className="flex items-center text-gray-700">
+                <Phone className="h-6 w-6 text-blue-600 mr-3" />
+                <span>305-498-7530</span>
+              </div>
               <div className="flex items-center text-gray-700">
                 <Mail className="h-6 w-6 text-blue-600 mr-3" />
                 <span>operations@trustednetworx.com</span>
