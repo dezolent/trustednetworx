@@ -24,7 +24,7 @@ const Home = () => {
         <div className="relative z-10 w-full">
           <div className="max-w-7xl mx-auto">
             <div className="relative px-4 sm:px-6 lg:px-8">
-              <div className="sm:text-center lg:text-left">
+              <div className="text-center">
                 <p className="text-base text-blue-200 sm:text-lg md:text-xl">
                   TRUSTEDNETWORX
                 </p>
@@ -32,13 +32,15 @@ const Home = () => {
                   <span className="block">Modern Solutions for</span>
                   <span className="block text-blue-200">Modern Business</span>
                 </h1>
-                <h2 className="mt-3 text-base text-white sm:text-lg md:text-xl max-w-xl">
+                <div className="flex justify-center">
+                  <h2 className="mt-3 text-base text-white sm:text-lg md:text-xl max-w-xl">
                   TrustedNetworx delivers cutting-edge telecommunications solutions to help your business stay connected and competitive.
-                </h2>
-                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                  </h2>
+                </div>
+                <div className="mt-5 sm:mt-8 sm:flex justify-center">
                   <div className="rounded-md shadow">
                     <Link to="/contact" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
-                      Get A Quote
+                      Learn More
                     </Link>
                   </div>
                 </div>
