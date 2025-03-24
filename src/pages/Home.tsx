@@ -82,8 +82,8 @@ const Home = () => {
                   <div className="mx-auto w-16 h-16 flex items-center justify-center rounded-full bg-green-100 mb-4">
                     <Truck className="h-8 w-8 text-green-600" />
                   </div>
-                  <h3 className="text-lg font-medium text-gray-900">Fleet Management</h3>
-                  <p className="mt-2 text-gray-500 flex-grow">Efficient fleet tracking and management solutions</p>
+                  <h3 className="text-lg font-medium text-gray-900">Fleet & Fuel Management</h3>
+                  <p className="mt-2 text-gray-500 flex-grow">Efficient fleet and fuel tracking and management solutions</p>
                   <div className="mt-4 flex items-center justify-center text-blue-600">
                     Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                   </div>
