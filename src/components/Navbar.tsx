@@ -45,7 +45,7 @@ const Navbar = () => {
               )}
             </div>
             <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
+            <Link to="mailto:carter@trustednetworx.com" className="text-gray-700 hover:text-blue-600">Contact</Link>
           </div>
 
           {/* Mobile Menu Button */}
