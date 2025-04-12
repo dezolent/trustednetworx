@@ -58,14 +58,14 @@ const InternetConnectivity = () => {
               <div className="glass-morphism rounded-2xl p-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <div>
                   <h2 className="text-3xl font-extrabold text-gray-900">Enterprise-Grade Connectivity</h2>
-                  <p className="mt-4 text-lg text-gray-500">
+                  <p className="mt-4 text-lg text-gray-600">
                     In today's digital world, reliable internet connectivity is crucial for business
                     success.
                     Our
                     solutions provide the speed, reliability, and security your business needs to stay
                     competitive.
                   </p>
-                  <p className="mt-4 text-lg text-gray-500">
+                  <p className="mt-4 text-lg text-gray-600">
                     From dedicated internet access to SD-WAN solutions, we offer a comprehensive suite
                     of
                     connectivity
@@ -86,7 +86,7 @@ const InternetConnectivity = () => {
                       </svg>
                       <div className="ml-4">
                         <h3 className="text-lg font-medium text-gray-900">Reliability</h3>
-                        <p className="mt-2 text-gray-500">
+                        <p className="mt-2 text-gray-600">
                           Experience high-quality, uninterrupted connectivity backed by our robust
                           infrastructure
                           and support.
@@ -104,7 +104,7 @@ const InternetConnectivity = () => {
                       </svg>
                       <div className="ml-4">
                         <h3 className="text-lg font-medium text-gray-900">Scalability</h3>
-                        <p className="mt-2 text-gray-500">
+                        <p className="mt-2 text-gray-600">
                           Easily adjust services to align with your business growth and evolving
                           needs.
                         </p>
@@ -122,7 +122,7 @@ const InternetConnectivity = () => {
                       </svg>
                       <div className="ml-4">
                         <h3 className="text-lg font-medium text-gray-900">Security</h3>
-                        <p className="mt-2 text-gray-500">
+                        <p className="mt-2 text-gray-600">
                           Protect your data and communications with our advanced security measures
                           and
                           monitoring.
@@ -140,7 +140,7 @@ const InternetConnectivity = () => {
                       </svg>
                       <div className="ml-4">
                         <h3 className="text-lg font-medium text-gray-900">Cost Efficiency</h3>
-                        <p className="mt-2 text-gray-500">
+                        <p className="mt-2 text-gray-600">
                           Optimize your IT investments with solutions designed to provide maximum
                           value
                           and
@@ -305,7 +305,7 @@ const InternetConnectivity = () => {
           </div>
 
           {/* CTA Section */}
-          <div className="relative w-full px-4 sm:px-6 lg:px-8mx-auto pb-16">
+          <div className="relative max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto pb-16">
             <div className="space-y-16">
               <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-8 shadow-xl border border-gray-200">
                 <div className="text-center">
