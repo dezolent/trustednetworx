@@ -27,13 +27,11 @@ const VoiceSolutions = () => {
                             <p className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                                 Advanced voice communication systems for modern business
                             </p>
-                            <div className="mt-5 sm:mt-8 sm:flex justify-center">
-                                <div className="rounded-md shadow">
-                                    <Link to="mailto:carter@trustednetworx"
-                                          className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
-                                        Learn More
-                                    </Link>
-                                </div>
+                            <div className="mt-8">
+                                <Link to="mailto:carter@trustednetworx.com"
+                                      className="inline-flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                                    Learn More
+                                </Link>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Truck, Wifi, PhoneCall, Smartphone, Mic, ArrowRight, Award, Users, Zap, Shield } from 'lucide-react';
+import {
+    Phone,
+    Truck,
+    Wifi,
+    PhoneCall,
+    Smartphone,
+    Mic,
+    ArrowRight,
+    Award,
+    Users,
+    Zap,
+    Shield,
+    Handshake
+} from 'lucide-react';
 
 const Home = () => {
     return (
@@ -37,12 +50,11 @@ const Home = () => {
                                         TrustedNetworx delivers cutting-edge telecommunications solutions to help your business stay connected and competitive.
                                     </h2>
                                 </div>
-                                <div className="mt-5 sm:mt-8 sm:flex justify-center">
-                                    <div className="rounded-md shadow">
-                                        <Link to="mailto:carter@trustednetworx" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
-                                            Learn More
-                                        </Link>
-                                    </div>
+                                <div className="mt-8">
+                                    <Link to="mailto:carter@trustednetworx.com"
+                                          className="inline-flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                                        Learn More
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -168,8 +180,8 @@ const Home = () => {
 
                             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                                    <div className="text-blue-600 mb-4">
-                                        <Award size={32} />
+                                    <div className="text-blue-600 mb-4 flex justify-center">
+                                        <Handshake size={32} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Expertise</h3>
                                     <p className="text-gray-600">
@@ -178,7 +190,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                                    <div className="text-blue-600 mb-4">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
                                         <Users size={32} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">Strategic Partnerships</h3>
@@ -188,7 +200,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                                    <div className="text-blue-600 mb-4">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
                                         <Zap size={32} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">Innovative Solutions</h3>
@@ -198,7 +210,7 @@ const Home = () => {
                                 </div>
 
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-                                    <div className="text-blue-600 mb-4">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
                                         <Shield size={32} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">Reliable & Scalable</h3>

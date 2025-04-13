@@ -36,13 +36,11 @@ const MobilitySolutions = () => {
                 <p className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
                   Empower Your Business with TrustedNetworx Enterprise Mobility Solutions
                 </p>
-                <div className="mt-5 sm:mt-8 sm:flex justify-center">
-                  <div className="rounded-md shadow">
-                    <Link to="mailto:carter@trustednetworx"
-                          className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
-                      Learn More
-                    </Link>
-                  </div>
+                <div className="mt-8">
+                  <Link to="mailto:carter@trustednetworx.com"
+                        className="inline-flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
+                    Learn More
+                  </Link>
                 </div>
               </div>
             </div>
@@ -61,7 +59,7 @@ const MobilitySolutions = () => {
 
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
             <div className="space-y-16">
-              {/* Transform Your Communications Section */}
+              {/* Transform Your Mobility Section */}
               <div className="glass-morphism rounded-2xl p-8 text center">
                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
                   Enterprise Mobility Management
@@ -88,7 +86,7 @@ const MobilitySolutions = () => {
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Fleet Management</h3>
                     <ul className="text-gray-600 space-y-2">
                       <p className="mt-4 text-lg text-gray-600">
-                        Optimize your mobile assets with our advanced <a href="/fleet-management">fleet management services</a>.
+                        Optimize your mobile assets with our advanced <a className="text-blue-600 font-bold" href="/fleet-management">Fleet Management Services</a>.
                         Gain real-time insights into vehicle locations, driver behaviors, and maintenance needs to enhance efficiency and reduce operational costs.
                       </p>
                     </ul>
