@@ -123,7 +123,7 @@ const FleetManagement = () => {
               Partner with TrustedNetworx to transform your fleet management strategy, ensuring your operations are efficient, compliant, and primed for success in today's competitive landscape.
             </p>
             <Link
-              to="/contact"
+              to="mailto:carter@trustednetworx.com"
               className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
             >
               Get Started

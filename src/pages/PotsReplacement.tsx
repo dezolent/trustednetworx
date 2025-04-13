@@ -63,7 +63,7 @@ const PotsReplacement = () => {
               </p>
               <div className="mt-8">
                 <Link
-                  to="/contact"
+                  to="mailto:carter@trustednetworx.com"
                   className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10"
                 >
                   Get A Quote
@@ -254,7 +254,7 @@ const PotsReplacement = () => {
               Contact us today to learn how we can help you transition from legacy POTS lines to modern alternatives while maintaining compatibility with your existing systems.
             </p>
             <Link
-              to="/contact"
+              to="mailto:carter@trustednetworx.com"
               className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
             >
               Get Started

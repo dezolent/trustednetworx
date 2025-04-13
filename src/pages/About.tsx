@@ -96,7 +96,7 @@ const About = () => {
               Let us help you navigate the future of telecom with expertise, reliability, and innovation. Partner with us for a seamless transition into the next generation of connectivity solutions.
             </p>
             <Link
-              to="/contact"
+              to="mailto:carter@trustednetworx.com"
               className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
             >
               Contact Us

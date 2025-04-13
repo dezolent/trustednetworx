@@ -31,7 +31,7 @@ const InternetConnectivity = () => {
                   Internet Connectivity solutions
                 </p>
                 <div className="mt-8">
-                  <Link to="/contact"
+                  <Link to="mailto:carter@trustednetworx.com"
                         className="inline-flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
                     Get A Quote
                   </Link>
@@ -217,7 +217,7 @@ const InternetConnectivity = () => {
                     Why Choose TrustedNetworx Solutions
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="glass-morphism p-6 rounded-xl shadow-lg border border-gray-100" style={{background: 'rgba(255, 255, 255, 0.1)'}}>
+                    <div className="glass-morphism p-6 rounded-xl shadow-lg border border-gray-100">
                       <div className="text-blue-600 mb-4 flex justify-center">
                         <Network size={32}/>
                       </div>
