@@ -1,5 +1,7 @@
 import React from 'react';
-import { Shield, Award, Zap, Handshake } from 'lucide-react';
+import {
+    Shield, Award, Zap, Handshake
+} from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
@@ -42,36 +44,35 @@ const About = () => {
                     <div className="absolute shadow-xl w-1/2 h-full bg-blue-100 skew-x-12 -right-1/4 top-1/4"></div>
                 </div>
 
-                <div className="py-16 bg-blue-50">
+                <div className="relative py-16">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         {/* Transform Your Fleet Operations Section */}
-                        <div className="glass-morphism rounded-2xl p-8">
+                        <div className="glass-morphism rounded-2xl py-16 px-8">
                             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                                 <div className="prose prose-lg">
-                                    <h2 className="text-lg font-extrabold text-blue-600 sm:text-4xl text-left">
+                                    <h2 className="text-lg font-extrabold sm:text-4xl text-left">
                                         Leading the Future of Telecom
                                     </h2>
-                                    <p className="mt-4 text-gray-600 pe-12">
+                                    <p className="mt-4 text-lg text-gray-600 pe-12">
+                                        With over 25 years of experience in the telecom and IoT industries,{' '}
                                         <a
                                             href="https://trustednetworx.com"
                                             className="text-blue-600 hover:text-blue-800 font-semibold"
-                                        >
-                                            TrustedNetworx
+                                        > TrustedNetworx
                                         </a>{' '}
-                                        has been at the forefront of telecommunications innovation for over 25 years. As
-                                        a leading reseller of telecommunication services, we've helped countless
-                                        businesses modernize their communication infrastructure and stay competitive in
-                                        an ever-evolving digital landscape.
+                                        specializes in delivering advanced connectivity solutions that drive business success. Our expertise spans IoT, M2M, cloud computing, and enterprise communication solutions, enabling organizations to modernize their infrastructure, optimize operations, and stay ahead in a rapidly evolving digital landscape.
                                     </p>
                                 </div>
-                                <div className="flex justify-center">
+                                <div className="flex justify-center shadow-xl rounded-2xl">
                                     <img
-                                        src="/About-TrustedNetworx.jpg"
+                                        src="/Global-Connectivity.jpg"
                                         alt="About TrustedNetworx"
                                         className="max-w-full h-auto rounded-lg"
                                     />
                                 </div>
                             </div>
+
+
 
 
                         </div>
@@ -81,21 +82,16 @@ const About = () => {
 
 
                 {/* Why Choose Us Section */}
-                <div className="py-16">
+                <div className="py-16 bg-blue-50">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="glass-morphism rounded-2xl p-8 text-center">
                             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8">
                                 Your Trusted Telecom Partner
                             </h2>
-                            <p className="mt-4 text-gray-600 pe-12">
-                                Having worked with industry leaders such as AT&T, Verizon, T-Mobile, US Cellular, MetTel
-                                Fusion Connect, Xirgo Technologies, DataRemote and many more, we have a proven track
-                                record of expanding market presence, forming strategic partnerships, and delivering
-                                scalable telecom solutions. From POTS line replacement and enterprise mobility to IoT
-                                connectivity and managed services, we help businesses transition to next-generation
-                                networks with confidence.
+                            <p className="mt-4 text-lg text-gray-600 pe-12">
+                                Having worked with industry leaders such as AT&T, Verizon, T-Mobile, US Cellular, MetTel Fusion Connect, Xirgo Technologies, DataRemote and many more, we have a proven track record of expanding market presence, forming strategic partnerships, and delivering scalable telecom solutions. From POTS line replacement and enterprise mobility to IoT connectivity and managed services, we help businesses transition to next-generation networks with confidence.
                             </p>
-                            <div className="mt-8 glass-morphism rounded-2xl p-8">
+                            <div className="my-8 glass-morphism rounded-2xl p-8">
                                 <div className="w-full">
                                     <img
                                         src="/partners/Partners-Banner-Desktop.png"
@@ -114,8 +110,12 @@ const About = () => {
                 </div>
 
 
+
+
+
+
                 {/* Why Choose Us Section */}
-                <div className="py-16 bg-blue-50">
+                <div className="py-16">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="glass-morphism rounded-2xl p-8 text-center">
                             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-8">
@@ -125,53 +125,48 @@ const About = () => {
                             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2">
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="text-blue-600 mb-4 flex justify-center">
-                                        <Award size={32}/>
+                                        <Award size={32} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">Proven Telecom Expertise</h3>
                                     <p className="text-gray-600">
-                                        Leverage decades of industry experience that equips us to tackle the complex
-                                        challenges of connectivity and infrastructure modernization.
+                                        Leverage decades of industry experience that equips us to tackle the complex challenges of connectivity and infrastructure modernization.
                                     </p>
                                 </div>
 
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="text-blue-600 mb-4 flex justify-center">
-                                        <Handshake size={32}/>
+                                        <Handshake size={32} />
                                     </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Strategic Global
-                                        Partnerships</h3>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Strategic Global Partnerships</h3>
                                     <p className="text-gray-600">
-                                        Our track record includes spearheading high-profile projects with global telecom
-                                        leaders, government bodies, and Fortune 500 companies.
+                                        Our track record includes spearheading high-profile projects with global telecom leaders, government bodies, and Fortune 500 companies.
                                     </p>
                                 </div>
 
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="text-blue-600 mb-4 flex justify-center">
-                                        <Zap size={32}/>
+                                        <Zap size={32} />
                                     </div>
                                     <h3 className="text-xl font-bold text-gray-900 mb-2">Future-Ready Solutions</h3>
                                     <p className="text-gray-600">
-                                        We deliver cutting-edge solutions—from cellular data technology to cloud-based
-                                        communication systems—customized to meet your evolving needs.
+                                        We deliver cutting-edge solutions—from cellular data technology to cloud-based communication systems—customized to meet your evolving needs.
                                     </p>
                                 </div>
 
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="text-blue-600 mb-4 flex justify-center">
-                                        <Shield size={32}/>
+                                        <Shield size={32} />
                                     </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Dependable & Scalable
-                                        Solutions</h3>
+                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Dependable & Scalable Solutions</h3>
                                     <p className="text-gray-600">
-                                        Designed for long-term success, our strategies help reduce costs, enhance
-                                        operational efficiency, and boost communication capabilities.
+                                        Designed for long-term success, our strategies help reduce costs, enhance operational efficiency, and boost communication capabilities.
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
 
 
                 {/* CTA Section */}
@@ -184,9 +179,7 @@ const About = () => {
                                     Ready to Transform Your Telecommunications?
                                 </h3>
                                 <p className="text-lg text-blue-100 mb-8">
-                                    Let us help you navigate the future of telecom with expertise, reliability, and
-                                    innovation. Partner with us for a seamless transition into the next generation of
-                                    connectivity solutions.
+                                    Let us help you navigate the future of telecom with expertise, reliability, and innovation. Partner with us for a seamless transition into the next generation of connectivity solutions.
                                 </p>
                                 <a
                                     className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10 transition-colors duration-300"
