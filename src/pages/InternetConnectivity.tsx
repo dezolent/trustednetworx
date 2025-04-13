@@ -208,7 +208,7 @@ const InternetConnectivity = () => {
                 </div>
 
                 {/* Why Choose Us Section */}
-                <div className="relative w-full bg-blue-50">
+                <div className="w-full bg-blue-50">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                         <div className="space-y-16">
                             <div className="glass-morphism rounded-2xl p-8 text-center">
