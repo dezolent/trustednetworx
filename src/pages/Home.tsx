@@ -8,7 +8,6 @@ import {
     Smartphone,
     Mic,
     ArrowRight,
-    Award,
     Users,
     Zap,
     Shield,

@@ -1,11 +1,11 @@
 import React from 'react';
 import { 
-  Phone, Shield, Zap, DollarSign, 
-  Bell, Flame, UserCheck, Building2, 
-  PhoneCall, Printer, Router, ShoppingCart,
+  Shield, Zap, DollarSign,
+  Bell, Building2,
+  Printer, Router, ShoppingCart,
   PhoneForwarded, Building, DoorClosed, Wifi,
   Gauge, Terminal, Banknote, Activity,
-  Server, Radio, Globe, Cpu, Network
+  Server, Radio
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
