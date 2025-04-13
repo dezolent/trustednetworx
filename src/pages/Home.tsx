@@ -4,7 +4,7 @@ import { Phone, Truck, Wifi, PhoneCall, Smartphone, Mic, ArrowRight, Award, User
 
 const Home = () => {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="bg-gray-50">
             {/* Hero Section */}
             <div className="relative min-h-[600px] flex items-center">
                 {/* Background Image */}

@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 const InternetConnectivity = () => {
     return (
-        <div className="min-h-screen bg-gray-50">
+        <div className="bg-gray-50">
             {/* Hero Section */}
             <div className="relative min-h-[400px] flex items-center">
                 {/* Background Image */}
