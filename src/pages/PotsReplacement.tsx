@@ -219,7 +219,7 @@ const PotsReplacement = () => {
           <div className="relative py-16 ">
             <div className="absolute inset-0 z-0 bg-blue-100/50" style={{filter: 'blur(10px)'}}/>
             <div className="relative z-10">
-              <div className="mx-32 px-4 sm:px-6 lg:px-8">
+              <div className="lg:mx-32 px-4 sm:px-6 lg:px-8">
                 <div className="glass-morphism rounded-2xl py-16 px-8">
                   <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
                     Supporting All Your POTS Replacement Needs
