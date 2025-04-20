@@ -44,9 +44,9 @@ const About = () => {
                     <div className="absolute shadow-xl w-1/2 h-full bg-blue-100 skew-x-12 -right-1/4 top-1/4"></div>
                 </div>
 
+                {/* Leading the Future of Telecom Section */}
                 <div className="relative py-16">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        {/* Transform Your Fleet Operations Section */}
                         <div className="glass-morphism rounded-2xl py-16 px-8">
                             <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
                                 <div className="prose prose-lg">
@@ -71,12 +71,7 @@ const About = () => {
                                     />
                                 </div>
                             </div>
-
-
-
-
                         </div>
-
                     </div>
                 </div>
 

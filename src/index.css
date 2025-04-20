@@ -19,6 +19,7 @@
 
 .bg-dot-pattern {
   position: relative;
+  z-index: 150;
 }
 
 .bg-dot-pattern::after {
@@ -39,4 +40,11 @@
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.glass-blur {
+  background: rgba(214, 234, 254, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(214, 234, 254, 0.2);
 }
