@@ -178,7 +178,7 @@ const About = () => {
                                 </p>
                                 <a
                                     className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10 transition-colors duration-300"
-                                    href="mailto:carter@trustednetworx.com">Contact Us</a>
+                                    href="/contact">Contact Us</a>
                             </div>
                         </div>
                     </div>
