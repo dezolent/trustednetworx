@@ -45,7 +45,7 @@ const Navbar = () => {
               )}
             </div>
             <Link to="/about" className="text-gray-700 hover:text-blue-600">About</Link>
-            <Link to="mailto:carter@trustednetworx.com" className="text-gray-700 hover:text-blue-600">Contact</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-blue-600">Contact</Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -69,7 +69,7 @@ const Navbar = () => {
             <Link to="/ip-pbx" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">IP PBX</Link>
             <Link to="/mobility-solutions" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Mobility Solutions</Link>
             <Link to="/voice-solutions" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Voice Solutions</Link>
-            <Link to="mailto:carter@trustednetworx.com" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Contact</Link>
+            <Link to="/contact" className="block px-3 py-2 text-gray-700 hover:bg-blue-50">Contact</Link>
           </div>
         </div>
       )}

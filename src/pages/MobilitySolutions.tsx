@@ -37,7 +37,7 @@ const MobilitySolutions = () => {
                   Empower Your Business with TrustedNetworx Enterprise Mobility Solutions
                 </p>
                 <div className="mt-8">
-                  <Link to="mailto:carter@trustednetworx.com"
+                  <Link to="/contact"
                         className="inline-flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
                     Learn More
                   </Link>
