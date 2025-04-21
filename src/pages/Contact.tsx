@@ -85,7 +85,7 @@ ${formData.company}
                                     name="name"
                                     id="name"
                                     required
-                                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
+                                    className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
                                     value={formData.name}
                                     onChange={handleChange}
                                 />
@@ -97,7 +97,7 @@ ${formData.company}
                                     type="text"
                                     name="title"
                                     id="title"
-                                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
+                                    className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
                                     value={formData.title}
                                     onChange={handleChange}
                                 />
@@ -111,7 +111,7 @@ ${formData.company}
                                     name="company"
                                     id="company"
                                     required
-                                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
+                                    className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
                                     value={formData.company}
                                     onChange={handleChange}
                                 />
@@ -125,7 +125,7 @@ ${formData.company}
                                     name="email"
                                     id="email"
                                     required
-                                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
+                                    className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
                                     value={formData.email}
                                     onChange={handleChange}
                                 />
@@ -137,7 +137,7 @@ ${formData.company}
                                     type="tel"
                                     name="phone"
                                     id="phone"
-                                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
+                                    className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
                                     value={formData.phone}
                                     onChange={handleChange}
                                 />
@@ -151,7 +151,7 @@ ${formData.company}
                                     id="message"
                                     required
                                     rows={4}
-                                    className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
+                                    className="mt-1 block w-full rounded-md border border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 p-2"
                                     value={formData.message}
                                     onChange={handleChange}
                                 />
