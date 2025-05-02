@@ -1,56 +1,15 @@
 import React from 'react';
-import {
-    Shield,
-    Zap,
-    DollarSign,
-    Bell,
-    Building2,
-    Printer,
-    Router,
-    ShoppingCart,
-    PhoneForwarded,
-    Building,
-    DoorClosed,
-    Wifi,
-    Gauge,
-    Terminal,
-    Banknote,
-    Activity,
-    Server,
-    Radio,
-    Store,
-    Ambulance,
-    GraduationCap, Cog
-} from 'lucide-react';
-import { Link } from 'react-router-dom';
+import {Wifi, Shield, Zap, DollarSign, Globe, Network, Signal, Router, Headphones} from 'lucide-react';
+import {Link} from 'react-router-dom';
 
-const PotsReplacement = () => {
-    const usesCases = [
-        { icon: Printer, name: 'FAX' },
-        { icon: Gauge, name: 'Meter Reading' },
-        { icon: Bell, name: 'Burglar & Fire Alarm' },
-        { icon: ShoppingCart, name: 'Point of Sale Terminals' },
-        { icon: PhoneForwarded, name: 'Ring-Down (Audiodial)' },
-        { icon: Terminal, name: 'Vending Machines' },
-        { icon: Building2, name: 'Elevator, Paging, Taxi' },
-        { icon: Banknote, name: 'ATM Machines' },
-        { icon: Building, name: 'Apartment Call Box' },
-        { icon: Activity, name: 'Telemetry' },
-        { icon: DoorClosed, name: 'Gate Access' },
-        { icon: Server, name: 'SMB Router/Gateway' },
-        { icon: Router, name: 'Analog M2M' },
-        { icon: Radio, name: '4G/5G Internet Access' },
-        { icon: Terminal, name: 'Legacy Modem Support' },
-        { icon: Wifi, name: 'Wireless Wi-Fi Access' }
-    ];
-
+const InternetConnectivity = () => {
     return (
-        <div className="bg-white">
+        <div className="bg-gray-50">
             {/* Hero Section */}
             <div className="relative min-h-[400px] flex items-center">
                 {/* Background Image */}
                 <div className="absolute inset-0 z-0" style={{
-                    backgroundImage: 'url(/POTS-Line-Replacement-Banner.jpg)',
+                    backgroundImage: 'url(/Internet-Connectivity.jpg)',
                     backgroundPosition: 'center',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat'
@@ -62,19 +21,17 @@ const PotsReplacement = () => {
                 <div className="relative z-10 w-full">
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                         <div className="text-center">
-                            <img
-                                className="w-48 mx-auto mb-4"
-                                src="/POTS-IN-A-BOX-WHITE.png"
-                                alt="DataRemote POTS IN A BOX">
-                            </img>
                             <h1 className="text-4xl font-extrabold text-blue-200 sm:text-5xl md:text-6xl">
-                                POTS Replacement Solutions
+                                Internet Connectivity Solutions
                             </h1>
-                            <p className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                                Modern alternatives to traditional phone lines for your business
+                            <p
+                                className="mt-3 max-w-md mx-auto text-base text-white sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
+                                Ensure your business remains agile, efficient, and securely connected with our
+                                comprehensive
+                                Internet Connectivity solutions
                             </p>
                             <div className="mt-8">
-                                <Link to="/contact"
+                                <Link to="mailto:carter@trustednetworx.com"
                                       className="inline-flex items-center justify-center px-8 py-2 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10">
                                     Learn More
                                 </Link>
@@ -94,46 +51,155 @@ const PotsReplacement = () => {
                     <div className="absolute shadow-xl w-1/2 h-full bg-blue-100 skew-x-12 -right-1/4 top-1/4"></div>
                 </div>
 
-                {/* Cutting the Landline Section */}
+                {/* Available Solutions Section */}
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="space-y-16">
-                        <div className="glass-morphism rounded-2xl p-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                        <div className="glass-morphism rounded-2xl p-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
                             <div>
-                                <h2 className="text-3xl font-extrabold text-gray-900">Cutting the Landline</h2>
+                                <h2 className="text-3xl font-extrabold text-gray-900">Enterprise-Grade Connectivity</h2>
                                 <p className="mt-4 text-lg text-gray-600">
-                                    As traditional Plain Old Telephone Service (POTS) lines become obsolete and carriers phase out support, businesses need reliable alternatives that offer improved functionality and cost savings.
+                                    In today's digital world, reliable internet connectivity is crucial for business
+                                    success.
+                                    Our
+                                    solutions provide the speed, reliability, and security your business needs to stay
+                                    competitive.
                                 </p>
                                 <p className="mt-4 text-lg text-gray-600">
-                                    Our POTS replacement solutions provide modern, digital alternatives that maintain compatibility with your existing equipment while adding new features and capabilities. We help you transition smoothly from legacy copper lines to IP-based solutions.
+                                    From dedicated internet access to SD-WAN solutions, we offer a comprehensive suite
+                                    of
+                                    connectivity
+                                    options designed to meet your specific business requirements and ensure maximum
+                                    uptime.
                                 </p>
+                                <div className="mt-8 space-y-6">
+                                    <div className="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             className="lucide lucide-wifi h-6 w-6 text-blue-600 flex-shrink-0 mt-1">
+                                            <path d="M12 20h.01"></path>
+                                            <path d="M2 8.82a15 15 0 0 1 20 0"></path>
+                                            <path d="M5 12.859a10 10 0 0 1 14 0"></path>
+                                            <path d="M8.5 16.429a5 5 0 0 1 7 0"></path>
+                                        </svg>
+                                        <div className="ml-4">
+                                            <h3 className="text-lg font-medium text-gray-900">Reliability</h3>
+                                            <p className="mt-2 text-gray-600">
+                                                Experience high-quality, uninterrupted connectivity backed by our robust
+                                                infrastructure
+                                                and support.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             className="lucide lucide-gauge h-6 w-6 text-blue-600 flex-shrink-0 mt-1">
+                                            <path d="m12 14 4-4"></path>
+                                            <path d="M3.34 19a10 10 0 1 1 17.32 0"></path>
+                                        </svg>
+                                        <div className="ml-4">
+                                            <h3 className="text-lg font-medium text-gray-900">Scalability</h3>
+                                            <p className="mt-2 text-gray-600">
+                                                Easily adjust services to align with your business growth and evolving
+                                                needs.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             className="lucide lucide-shield h-6 w-6 text-blue-600 flex-shrink-0 mt-1">
+                                            <path
+                                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                            </path>
+                                        </svg>
+                                        <div className="ml-4">
+                                            <h3 className="text-lg font-medium text-gray-900">Security</h3>
+                                            <p className="mt-2 text-gray-600">
+                                                Protect your data and communications with our advanced security measures
+                                                and
+                                                monitoring.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                             viewBox="0 0 24 24"
+                                             fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                             stroke-linejoin="round"
+                                             className="lucide lucide-dollar-sign h-6 w-6 text-blue-600 flex-shrink-0 mt-1">
+                                            <line x1="12" x2="12" y1="2" y2="22"></line>
+                                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                        </svg>
+                                        <div className="ml-4">
+                                            <h3 className="text-lg font-medium text-gray-900">Cost Efficiency</h3>
+                                            <p className="mt-2 text-gray-600">
+                                                Optimize your IT investments with solutions designed to provide maximum
+                                                value
+                                                and
+                                                performance.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div className="space-y-6">
+                                <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
+                                    Available Solutions
+                                </h2>
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="flex items-center">
-                                        <DollarSign className="h-8 w-8 text-blue-600 flex-shrink-0"/>
-                                        <h3 className="text-xl font-bold text-gray-900 ml-4">Cost Savings</h3>
+                                        <Router className="h-8 w-8 text-blue-600 flex-shrink-0"/>
+                                        <h3 className="text-xl font-bold text-gray-900 ml-4">Managed SD-WAN
+                                            Services</h3>
                                     </div>
                                     <p className="mt-4 text-gray-600">
-                                        Reduce monthly telephone expenses by up to 50% while adding new capabilities
+                                        Our award-winning SD-WAN combines MPLS, broadband internet circuits, and 4G-LTE
+                                        to
+                                        deliver a
+                                        resilient and high-performance network. This intelligent network dynamically
+                                        manages
+                                        resources, offering improved performance, reliability, and security.
                                     </p>
                                 </div>
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="flex items-center">
-                                        <Shield className="h-8 w-8 text-blue-600 flex-shrink-0"/>
-                                        <h3 className="text-xl font-bold text-gray-900 ml-4">Enhanced Reliability</h3>
+                                        <Globe className="h-8 w-8 text-blue-600 flex-shrink-0"/>
+                                        <h3 className="text-xl font-bold text-gray-900 ml-4">Satellite Broadband</h3>
                                     </div>
                                     <p className="mt-4 text-gray-600">
-                                        Improved uptime with built-in redundancy and disaster recovery options
+                                        As an authorized reseller of <a href="https://www.starlink.com"
+                                                                        target="_blank"><b>Starlink</b></a> services and
+                                        equipment, we provide
+                                        high-speed,
+                                        low-latency broadband internet access, even in remote locations. This ensures
+                                        your
+                                        business
+                                        remains connected, regardless of geography.
                                     </p>
                                 </div>
                                 <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
                                     <div className="flex items-center">
-                                        <Zap className="h-8 w-8 text-blue-600 flex-shrink-0"/>
-                                        <h3 className="text-xl font-bold text-gray-900 ml-4">Future-Proof Solution</h3>
+                                        <Signal className="h-8 w-8 text-blue-600 flex-shrink-0"/>
+                                        <h3 className="text-xl font-bold text-gray-900 ml-4">IoT Single SIM</h3>
                                     </div>
                                     <p className="mt-4 text-gray-600">
-                                        Stay ahead of copper retirement with modern IP-based technology
+                                        Our IoT Single SIM card ensures your devices maintain connectivity at all times
+                                        by
+                                        intelligently roaming to find the strongest mobile signal, regardless of
+                                        carrier.
+                                        This
+                                        global solution enhances security, reduces costs, and provides real-time data
+                                        for
+                                        effective
+                                        device management.
                                     </p>
                                 </div>
                             </div>
@@ -141,165 +207,97 @@ const PotsReplacement = () => {
                     </div>
                 </div>
 
-                {/* All In One Solution Section */}
-                <div className="py-16 bg-blue-50">
-                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <div className="glass-morphism rounded-2xl py-16 px-8">
+                {/* Why Choose Us Section */}
+                <div className="w-full bg-blue-50">
+                    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                        <div className="space-y-16">
+                            <div className="glass-morphism rounded-2xl p-8 text-center">
+                                <h2 className="text-3xl font-extrabold text-gray-900 mb-8">
+                                    Why Choose TrustedNetworx Solutions
+                                </h2>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div className="glass-morphism p-6 rounded-xl shadow-lg border border-gray-100">
+                                        <div className="text-blue-600 mb-4 flex justify-center">
+                                            <Network size={32}/>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Customized
+                                            IT Solutions
+                                        </h3>
+                                        <p className="text-gray-600">
+                                            Our team expertly monitors and maintains your IT infrastructure,
+                                            allowing you to focus
+                                            on your core business operations without interruption. We provide fully
+                                            managed fiber,
+                                            broadband, and wireless 4G/LTE solutions, ensuring your networks are
+                                            secure, efficient,
+                                            and up-to-date.
+                                        </p>
+                                    </div>
+                                    <div className="glass-morphism p-6 rounded-xl shadow-lg border border-gray-100"
+                                         style={{background: 'rgba(255, 255, 255, 0.1)'}}>
+                                        <div className="text-blue-600 mb-4 flex justify-center">
+                                            <Headphones size={32}/>
+                                        </div>
+                                        <h3 className="text-xl font-bold text-gray-900 mb-3 text-center">Comprehensive
+                                            Support</h3>
+                                        <p className="text-gray-600">
+                                            As a client, you'll have direct access to dedicated account managers,
+                                            project managers,
+                                            engineers, service technicians, and a customer care team to assist with
+                                            all aspects of
+                                            your networking needs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Benefits Section */}
+                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                    <div className="space-y-16">
+                        <div className="glass-morphism rounded-2xl p-8">
                             <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-8">
-                                An All-In-One POTS Replacement Solution
+                                Benefits
                             </h2>
-                            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 items-center">
-                                <div className="prose prose-lg">
-                                    <h3 className="text-3xl font-bold text-left">
-                                        POTS IN A BOX®
-                                    </h3>
-                                    <p className="mt-4 text-lg text-gray-600">
-                                        <a
-                                            href="https://dataremote.com/pots-line-replacement/"
-                                            target="_blank"
-                                            className="text-blue-600 hover:text-blue-800 font-semibold"
-                                            title="DataRemote POTS IN A BOX®"
-                                        >
-                                            POTS IN A BOX®
-                                        </a>{' '}
-                                        is a cutting-edge POTS line replacement solution that enables seamless migration of legacy PSTN-based analog systems to modern IP and cellular data networks, supporting voice, fax, alarm signals, and emergency communications. Featuring cost-effective, plug-and-play cellular routers, it delivers versatile business continuity and reliable telecommunications for today's evolving industry.
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
+                                        <Wifi size={32}/>
+                                    </div>
+                                    <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Reliability</h3>
+                                    <p className="text-gray-600 text-center text-sm">
+                                        Experience uninterrupted connectivity backed by robust infrastructure.
                                     </p>
                                 </div>
-                                <div className="flex justify-center rounded-2xl">
-                                    <img
-                                        src="/DataRemote-90X1-All-In-One-POTS-Replacement.png"
-                                        alt="POTS IN A BOX Solution Diagram"
-                                        className="max-w-full h-auto rounded-lg"
-                                    />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                {/* PTSN Market Section */}
-                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                    <div className="space-y-16">
-                        {/* PTSN Sunset & The Market Section */}
-                        <div className="glass-morphism rounded-2xl p-8">
-                            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
-                                PTSN Sunset & The Market Shift
-                            </h2>
-                            <p className="mt-4 text-lg text-gray-600 text-center">
-                                POTS technology remains the backbone of infrastructure, seamlessly integrating into every aspect of modern life.
-                                These landlines connect essential devices such as electrical transformer stations, security alarm panels, commercial HVAC systems, POS terminals, ATMs, traffic control systems, and elevator emergency phones.
-                            </p>
-
-                            {/* Stats Section */}
-                            <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-3 items-center">
-                                <div className="bg-white py-6 px-2 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <dt className="text-5xl font-extrabold text-blue-600">900M+</dt>
-                                    <dd className="mt-2 font-medium text-gray-500">Legacy Landlines Globally</dd>
-                                </div>
-
-                                <div className="bg-white py-6 px-2 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <dt className="text-5xl font-extrabold text-blue-600">30M+</dt>
-                                    <dd className="mt-2 font-medium text-gray-500">POTS Lines in the US</dd>
-                                </div>
-
-                                <div className="bg-white py-6 px-2 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <dt className="text-5xl font-extrabold text-blue-600">31.4%</dt>
-                                    <dd className="mt-2 font-medium text-gray-500">Increase in POTS Costs Over The Past 5 Years</dd>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Use Cases Section with Wave Background */}
-                <div className="py-16 bg-white">
-                    <div className="relative glass-blur">
-                        {/* Top Wave */}
-                        <div className="absolute top-0 left-0 right-0 h-16 overflow-hidden -translate-y-full">
-                            <svg className="absolute bottom-0 w-full h-16" preserveAspectRatio="none" viewBox="0 0 1440 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 54L1440 54L1440 0C1440 0 1320 36 1200 36C1080 36 960 0 840 0C720 0 600 36 480 36C360 36 240 0 120 0C60 0 0 18 0 18L0 54Z" fill="rgb(239 246 255 / 0.5)"/>
-                            </svg>
-                        </div>
-
-                        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-                            <h2 className="text-3xl font-extrabold text-gray-900 text-center mb-12">
-                                Supporting All Your POTS Replacement Needs
-                            </h2>
-                            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-8">
-                                {usesCases.map((useCase, index) => (
-                                    <div key={index} className="flex flex-col items-center text-center">
-                                        <useCase.icon className="w-8 h-8 text-blue-600 mb-3" />
-                                        <p className="text-sm font-medium text-gray-900">{useCase.name}</p>
+                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
+                                        <Zap size={32}/>
                                     </div>
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* Bottom Wave */}
-                        <div className="absolute bottom-0 left-0 right-0 h-16 overflow-hidden translate-y-full">
-                            <svg className="absolute top-0 w-full h-16" preserveAspectRatio="none" viewBox="0 0 1440 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M0 0L1440 0L1440 54C1440 54 1320 18 1200 18C1080 18 960 54 840 54C720 54 600 18 480 18C360 18 240 54 120 54C60 54 0 36 0 36L0 0Z" fill="rgb(239 246 255 / 0.5)"/>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Compatible Systems Section */}
-                <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                    <div className="space-y-16">
-                        <div className="glass-morphism rounded-2xl p-8">
-                            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">
-                                Compatible Systems & Industries
-                            </h2>
-
-                            <div className="mt-10 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
-                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <div className="text-blue-600 mb-2 flex justify-center">
-                                        <Store size={32}/>
-                                    </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Retail</h3>
-                                    <ul className="text-gray-600 space-y-1">
-                                        <li>• Point of sale systems</li>
-                                        <li>• Fire alarm panels</li>
-                                        <li>• Security alarms</li>
-                                    </ul>
+                                    <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Scalability</h3>
+                                    <p className="text-gray-600 text-center text-sm">
+                                        Easily adjust services as your business grows.
+                                    </p>
                                 </div>
-
-                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <div className="text-blue-600 mb-2 flex justify-center">
-                                        <Ambulance size={32}/>
+                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
+                                        <Shield size={32}/>
                                     </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Healthcare</h3>
-                                    <ul className="text-gray-600 space-y-1">
-                                        <li>Emergency Phones</li>
-                                        <li>Paging Systems</li>
-                                        <li>Fax Machines</li>
-                                    </ul>
+                                    <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Security</h3>
+                                    <p className="text-gray-600 text-center text-sm">
+                                        Advanced security measures protect your data.
+                                    </p>
                                 </div>
-
-                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <div className="text-blue-600 mb-2 flex justify-center">
-                                        <GraduationCap size={32}/>
+                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+                                    <div className="text-blue-600 mb-4 flex justify-center">
+                                        <DollarSign size={32}/>
                                     </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Education</h3>
-                                    <ul className="text-gray-600 space-y-1">
-                                        <li>Campus Security Systems</li>
-                                        <li>Elevator Phones</li>
-                                        <li>Safety Phones</li>
-                                    </ul>
-                                </div>
-
-                                <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100 text-center">
-                                    <div className="text-blue-600 mb-2 flex justify-center">
-                                        <Cog size={32}/>
-                                    </div>
-                                    <h3 className="text-xl font-bold text-gray-900 mb-2">Manufacturing</h3>
-                                    <ul className="text-gray-600 space-y-1">
-                                        <li>Gate Entry Systems</li>
-                                        <li>Fire Alarm Panels</li>
-                                        <li>Meter Reading</li>
-                                    </ul>
+                                    <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">Cost
+                                        Efficiency</h3>
+                                    <p className="text-gray-600 text-center text-sm">
+                                        Optimize IT investments for maximum value.
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -312,17 +310,15 @@ const PotsReplacement = () => {
                         <div
                             className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-8 shadow-xl border border-gray-200">
                             <div className="text-center">
-                                <h3 className="text-2xl font-bold text-white mb-4">
-                                    Don't Let Outdated POTS Lines Slow Down Your Business
-                                </h3>
-                                <p className="text-lg text-blue-100 mb-8">
-                                    Contact us today to learn how we can help you transition from legacy POTS lines to modern alternatives while maintaining compatibility with your existing systems.
-                                </p>
-                                <Link
-                                    to="/contact"
-                                    className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10 transition-colors duration-300"
-                                >Get Started
-                                </Link>
+                                <h3 className="text-2xl font-bold text-white mb-4">Ready to Transform Your
+                                    Connectivity?</h3>
+                                <p className="text-lg text-blue-100 mb-8">Partner with us to transform your
+                                    communication
+                                    infrastructure, ensuring your business stays connected and competitive in today's
+                                    fast-paced
+                                    environment.</p><a
+                                className="inline-flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50 md:py-4 md:text-lg md:px-10 transition-colors duration-300"
+                                href="/contact">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -332,4 +328,4 @@ const PotsReplacement = () => {
     );
 };
 
-export default PotsReplacement;
+export default InternetConnectivity;
