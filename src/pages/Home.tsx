@@ -46,7 +46,7 @@ const Home = () => {
                                 </h1>
                                 <div className="flex justify-center">
                                     <h2 className="mt-3 text-base text-white sm:text-lg md:text-xl max-w-xl">
-                                        TrustedNetworx delivers cutting-edge telecommunications solutions to help your business stay connected and competitive.
+                                        TrustedNetworx Managed Solution Provider
                                     </h2>
                                 </div>
                                 <div className="mt-8">
@@ -77,7 +77,7 @@ const Home = () => {
                         <div className="glass-morphism rounded-2xl p-8">
                             <div className="text-center">
                                 <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-                                    Our Solutions
+                                    Managed Services
                                 </h2>
                                 <p className="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
                                     Comprehensive telecommunications solutions for your business needs
